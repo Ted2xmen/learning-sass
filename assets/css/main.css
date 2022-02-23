@@ -1,15 +1,11 @@
-.navbar__logo, .navbar__menu, .navbar__menu--links {
-  display: -webkit-box;
-  display: -ms-flexbox;
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Black+Ops+One&family=Bungee&family=Jura:wght@500&family=Nothing+You+Could+Do&family=Syncopate&family=Ultra&display=swap");
+.navbar__menu--links, .navbar__menu, .navbar__logo {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,17 +13,12 @@
 .navbar {
   background-color: #ffefef;
   height: 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0.5rem calc((100vw - 1200px) / 2);
   z-index: 10;
   position: relative;
 }
-
 .navbar__logo {
   color: black;
   cursor: pointer;
@@ -35,11 +26,9 @@
   font-size: 2rem;
   margin-left: 24px;
 }
-
 .navbar__bars {
   opacity: 0;
 }
-
 @media screen and (max-width: 768px) {
   .navbar__bars {
     color: black;
@@ -50,34 +39,26 @@
     font-size: 2rem;
   }
 }
-
 .navbar__menu {
   list-style: none;
   text-align: center;
   margin-right: 24px;
 }
-
 @media screen and (max-width: 768px) {
   .navbar__menu {
     display: none;
   }
 }
-
 .navbar__menu--links {
   color: black;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-decoration: none;
   padding: 0.5rem;
 }
-
 .navbar__menu--links:hover {
   color: green;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
 .navbar__menu .btn {
   padding: 12px 24px;
   color: white;
@@ -87,7 +68,6 @@
   border-radius: 4px;
   background: green;
 }
-
 .navbar__menu .btn a {
   color: white;
   margin: 1px;
@@ -95,4 +75,17 @@
   text-decoration: none;
   cursor: pointer;
 }
-/*# sourceMappingURL=styles.css.map */
+
+.nycd {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.bungee {
+  font-family: "Bungee", cursive;
+}
+
+.black-ops-one {
+  font-family: "Black Ops One", cursive;
+}
+
+/*# sourceMappingURL=main.css.map */
