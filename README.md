@@ -1,3 +1,3 @@
-# sass boilerplate
+# Sass Boilerplate
 
-ted2xmen
+by Ted2xmen
