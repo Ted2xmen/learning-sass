@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Black+Ops+One&family=Bungee&family=Jura:wght@500&family=Nothing+You+Could+Do&family=Syncopate&family=Ultra&display=swap");
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
 .syncopate {
   font-family: "Syncopate", sans-serif;
 }
@@ -110,15 +127,20 @@
   padding-left: 3rem;
 }
 
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar__menu--links, .navbar__menu, .navbar__logo {
   display: flex;
   align-items: center;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .navbar {
